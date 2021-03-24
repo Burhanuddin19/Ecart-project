@@ -1,5 +1,4 @@
 {%extends 'blog/basic.html'%}
-{% block blogactive %}active{% endblock blogactive %}
 {%block body%}
 <div class="container">
     <div class="row mt-4">
@@ -17,7 +16,6 @@
                 <h2>{{post.head2}}</h2>
                 <p>{{post.chead2}}</p>
 
-                <div class="fb-comments my-3" data-href="http://127.0.0.1:8000/blog/blogpost/{{post.post_id}}" data-width="" data-numposts="5"></div>
             </div><!-- /.blog-post -->
         </div><!-- /.blog-main -->
         <aside class="col-md-4 blog-sidebar">
